@@ -40,6 +40,7 @@ router
 router
   .get('/topic/create', topicCtrl.showCreate)
   .post('/topic/create', topicCtrl.handleCreate)
+  .get('/topic/show', topicCtrl.showTopic)
   .get('/topic/edit', topicCtrl.showEdit)
   .post('/topic/edit', topicCtrl.handleEdit)
   .get('/topic/delete', topicCtrl.handleDelete)

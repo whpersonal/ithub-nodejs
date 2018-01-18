@@ -1,5 +1,9 @@
 exports.showCreate = (req, res) => {
-  res.send('showCreate')
+  res.render('topic/create.html')
+}
+
+exports.showTopic = (req, res) => {
+  res.render('topic/show.html')
 }
 
 exports.handleCreate = (req, res) => {
